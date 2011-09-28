@@ -5,7 +5,7 @@
                   Jenkins, an Associated Project of
                    Software in the Public Interest
      Individual Contributor License Agreement ("Agreement") V1.0
-                   http://jenkins-ci.org/licenses/
+                   http://jenkins-ci.org/licenses
 
 Thank you for your interest in the Jenkins project (the "Project").
 Jenkins is an Associated Project of Software in the Public Interest

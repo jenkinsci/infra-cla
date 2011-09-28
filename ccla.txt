@@ -6,7 +6,7 @@
                      Jenkins, an Associated Project of
                       Software in the Public Interest
   Software Grant and Corporate Contributor License Agreement ("Agreement")
-                      http://jenkins-ci.org/licenses/
+                      http://jenkins-ci.org/licenses
                               (v r20110926)
 
 
