@@ -4,7 +4,7 @@
 [icla.txt](https://github.com/jenkinsci/infra-cla/blob/approved/icla.txt) and [ccla.txt](https://github.com/jenkinsci/infra-cla/blob/approved/ccla.txt) in the `approved` branch are the official versions that people should be using. See [the governance document](https://wiki.jenkins-ci.org/display/JENKINS/Governance+Document) for the background.
 
 # How to file CLA
-Have ICLA and/or CCLA printed, signed, scanned back to PDF, then send it to `jenkins-cla@googlegroups.com` along with [your account on Jenkins](https://jenkins-ci.org/account).
+Have ICLA and/or CCLA printed, signed, scanned back to PDF, then send it to `jenkinsci-cla@googlegroups.com` along with [your account on Jenkins](https://jenkins-ci.org/account).
 
 # How we store signed CLAs
 For now, this section is more of a note to the board for how to store this. Eventually I'd like to have people submit this via pull requests.
