@@ -6,7 +6,7 @@ are the official versions that people should be using.
 See [the governance document](https://wiki.jenkins-ci.org/display/JENKINS/Governance+Document) for the background.
 
 # How to file CLA
-# Individual CLA
+## Individual CLA
 For each committer that works on the core, ICLA must be in place:
 
 * Fork this repository, and check it out locally
