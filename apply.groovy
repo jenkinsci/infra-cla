@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
-#
-# Add all the people who signed ICLA into the right group
-#
+/*
+  Add all the people who signed ICLA into the right group
+*/
 @Grab('org.kohsuke:github-api:1.70')
 import org.kohsuke.github.*;
 
