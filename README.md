@@ -20,7 +20,7 @@ There should be a plenty of examples of this in [our PR section](https://github.
 
 To encrypt your CLA, you need gpg. First, obtain the public key of the Jenkins board:
 
-    curl https://raw.github.com/jenkinsci/infra-cla/approved/publicKey.asc | gpg --import
+    curl https://raw.githubusercontent.com/jenkinsci/infra-cla/approved/publicKey.asc | gpg --import
 
 The command to sign it is:
 
