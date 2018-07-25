@@ -10,7 +10,7 @@ See [the governance document](https://wiki.jenkins-ci.org/display/JENKINS/Govern
 For each committer that works on the core, ICLA must be in place:
 
 * Fork this repository, and check it out locally
-* Create a directory under `collected/icla/YOURNAME` where YOURNAME is [your Jenkins community ID](http://jenkins-ci.org/account)
+* Create a directory under `collected/icla/YOURNAME` where YOURNAME is [your Jenkins community ID](https://accounts.jenkins.io)
 * Have ICLA printed, signed, scanned back to PDF. Encrypt it (see below) and put it as `collected/icla/YOURNAME/cla.pdf.asc`
 * Add a property file at `collected/icla/YOURNAME/committer.properties` and list your name, email address, and GitHub ID.
 * If your company has a signed CCLA in place, create a symlink at `collected/icla/YOURNAME/ccla` to the corresponding `../../ccla/COMPANY` directory.
