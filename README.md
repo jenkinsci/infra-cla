@@ -3,7 +3,7 @@
 `icla.txt` and `ccla.txt` contain the CLA paper. In particular,
 [icla.txt](https://raw.github.com/jenkinsci/infra-cla/master/icla.txt) and [ccla.txt](https://raw.github.com/jenkinsci/infra-cla/approved/ccla.txt) in the `approved` branch
 are the official versions that people should be using.
-See [the governance document](https://wiki.jenkins-ci.org/display/JENKINS/Governance+Document) for the background.
+See [the governance document](https://jenkins.io/project/governance/) for the background.
 
 # How to file CLA
 ## Individual CLA
