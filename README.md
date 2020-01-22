@@ -37,4 +37,3 @@ A board member accepts a submitted PR via the following step.
 * Check that `cla.pdf.asc` can be indeed decrypted, and make sure it has valid content
 * Merge the PR
 * Create a signed tag (`git tag -s`) on the merge commit to create a proof
-* Add the person to [the core team](https://github.com/orgs/jenkinsci/teams/core)
