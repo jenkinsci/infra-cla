@@ -6,7 +6,7 @@
                      Jenkins, an Associated Project of
                       Software in the Public Interest
   Software Grant and Corporate Contributor License Agreement ("Agreement")
-             https://jenkins.io/project/governance/#license
+               https://jenkins.io/project/governance/#cla
                               (v r20110926)
 
 
