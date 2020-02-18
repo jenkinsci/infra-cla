@@ -28,7 +28,7 @@ The command to sign it is:
 
 
 ## Corporate CLA
-If you work on Jenkins core on behalf of your employer, your company needs to have CCLA in place. Have CCLA printed, signed, scanned back to PDF, then send it to `jenkinsci-cla@googlegroups.com` along with [your account on Jenkins](https://jenkins-ci.org/account).
+If you work on Jenkins core on behalf of your employer, your company needs to have CCLA in place. Have CCLA printed, signed, scanned back to PDF, then send it to `jenkinsci-board@googlegroups.com` along with [your account on Jenkins](https://jenkins-ci.org/account).
 
 # How to accept PR
 A board member accepts a submitted PR via the following step.
