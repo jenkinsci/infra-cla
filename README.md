@@ -6,6 +6,9 @@ are the official versions that people should be using.
 See [the governance document](https://jenkins.io/project/governance/) for the background.
 
 # How to file CLA
+
+WARNING: Replace by EasyCLA
+
 ## Individual CLA
 For each committer that works on the core, ICLA must be in place:
 
