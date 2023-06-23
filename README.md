@@ -37,6 +37,8 @@ Step 8 can be ignored.
 
 Once you have signed the CLA successfully, the bot will automatically update its comment on your PR, to reflect the status.
 
+You receive an email from `*@lfx.linuxfoundation.org` sending you a link to download a copy of the CLA you have signed.
+
 You are all set now. The CLA has been signed. You can close your pull request. It acted as a workspace for the EasyCLA bot to do its job.
 
 ---
@@ -44,3 +46,5 @@ You are all set now. The CLA has been signed. You can close your pull request. I
 ### Update a previously signed CLA
 
 If you have signed a CLA before and submitted a PDF, you can update it by following the same steps as above.
+
+If you have signed a PDF before and want to carry over your signature to the EasyCLA service, you can do so by following the steps above.
