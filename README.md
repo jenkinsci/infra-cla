@@ -4,7 +4,7 @@ The Jenkins project strives for a low barrier of entry. Therefore, we require a 
 If you are interested in joining the core, documentation, hosting, infrastructure, release or security team, a signed CLA is one prerequisite.  
 If you are a board member or officer listed on the [governance page](https://www.jenkins.io/project/board/), you have signed a CLA already.
 
-Special interest groups, regular or one-time committers and general participation in the project and requires no signed CLA, although we welcome anyone who's willing to submit a CLA for their work.
+Members of special interest groups, regular committers, general participants, and one-time committers in the project do not require a signed CLA, although we welcome anyone who's willing to submit a CLA for their work.
 
 # How to submit a CLA
 
@@ -23,6 +23,8 @@ The CLA process is fully automatic and requires no manual intervention by the bo
 
 The `linux-foundation-easycla` bot will automatically check your pull request and add a comment to it.
 It lets you know, that you haven't signed the CLA yet. Click on `Please click here to be authorized` on the bot's comment.
+
+The email address you're about to enter in the CLA must match your configured email address in git and GitHub.
 
 #### Sign an individual CLA (ICLA)
 
