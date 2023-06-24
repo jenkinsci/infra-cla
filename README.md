@@ -1,9 +1,10 @@
 # Jenkins project CLA
 
-The Jenkins project strives for a low barrier of entry. Therefore, we require a signed CLA for core committers and people belonging to specific teams only.
-If you are interested in joining the core, documentation, hosting, infrastructure, release or security team, a signed CLA is one prerequisite.
+The Jenkins project strives for a low barrier of entry. Therefore, we require a signed CLA for board members, officers, core committers and people belonging to specific teams only.  
+If you are interested in joining the core, documentation, hosting, infrastructure, release or security team, a signed CLA is one prerequisite.  
+If you are a board member or officer listed on the [governance page](https://www.jenkins.io/project/board/), you have signed a CLA already.
 
-Special interest groups and general participation in the project requires no signed CLA, although we welcome anyone who's willing to submit a CLA for their work.
+Special interest groups, regular or one-time committers and general participation in the project and requires no signed CLA, although we welcome anyone who's willing to submit a CLA for their work.
 
 # How to submit a CLA
 
