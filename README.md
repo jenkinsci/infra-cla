@@ -12,7 +12,7 @@ Members of special interest groups, regular committers, general participants, an
 
 The Jenkins project uses the EasyCLA service provided by the Linux Foundation. We do no longer accept signed PDFs sent by email to the board or by a pull request to this repository.
 
-The CLA process is fully automatic and requires no manual intervention by the board or any other Jenkins project member.
+EasyCLA is a self service, which requires no manual intervention by the board or any other Jenkins project member. It is a one-time process, valid for all Jenkins [community spaces](https://www.jenkins.io/project/conduct/#community-spaces).
 
 ### Preparation
 
@@ -51,3 +51,8 @@ You are all set now. The CLA has been signed. You can close your pull request. I
 If you have signed a CLA before and submitted a PDF, you can update it by following the same steps as above.
 
 If you have signed a PDF before and want to carry over your signature to the EasyCLA service, you can do so by following the steps above.
+
+### How to check if a CLA has been submitted
+
+Previously, project maintainers checked the `collected/` directory.
+With EasyCLA, you can look for a pull request and check the bot's comment to obtain the status of the CLA.
