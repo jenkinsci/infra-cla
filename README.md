@@ -10,9 +10,9 @@ Members of special interest groups, regular committers, general participants, an
 
 ## Preamble
 
-The Jenkins project uses the EasyCLA service provided by the Linux Foundation. We do no longer accept signed PDFs sent by email to the board or by a pull request to this repository.
+The Jenkins project uses the EasyCLA service provided by the Linux Foundation. We no longer accept signed PDFs sent by email to the board or by a pull request to this repository.
 
-EasyCLA is a self service, which requires no manual intervention by the board or any other Jenkins project member. It is a one-time process, valid for all Jenkins [community spaces](https://www.jenkins.io/project/conduct/#community-spaces).
+EasyCLA is self service and requires no manual intervention by the board or any other Jenkins project member. It is a one-time process, valid for all Jenkins [community spaces](https://www.jenkins.io/project/conduct/#community-spaces).
 
 ### Preparation
 
