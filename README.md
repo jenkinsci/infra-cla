@@ -1,39 +1,58 @@
 # Jenkins project CLA
 
-`icla.txt` and `ccla.txt` contain the CLA paper. In particular,
-[icla.txt](https://raw.github.com/jenkinsci/infra-cla/master/icla.txt) and [ccla.txt](https://raw.github.com/jenkinsci/infra-cla/approved/ccla.txt) in the `approved` branch
-are the official versions that people should be using.
-See [the governance document](https://jenkins.io/project/governance/) for the background.
+The Jenkins project strives for a low barrier of entry. Therefore, we require a signed CLA for board members, officers, core committers and people belonging to specific teams only.  
+If you are interested in joining the core, documentation, hosting, infrastructure, release or security team, a signed CLA is one prerequisite.  
+If you are a board member or officer listed on the [governance page](https://www.jenkins.io/project/board/), you have signed a CLA already.
 
-# How to file CLA
-## Individual CLA
-For each committer that works on the core, ICLA must be in place:
+Members of special interest groups, regular committers, general participants, and one-time committers in the project do not require a signed CLA, although we welcome anyone who's willing to submit a CLA for their work.
 
-* Fork this repository, and check it out locally
-* Create a directory under `collected/icla/YOURNAME` where YOURNAME is [your Jenkins community ID](https://accounts.jenkins.io)
-* Have ICLA printed, signed, scanned back to PDF. Encrypt it (see below) and put it as `collected/icla/YOURNAME/cla.pdf.asc`
-* Add a property file at `collected/icla/YOURNAME/committer.properties` and list your name, email address, and GitHub ID.
-* If your company has a signed CCLA in place, create a symlink at `collected/icla/YOURNAME/ccla` to the corresponding `../../ccla/COMPANY` directory.
-* File your fork as a pull request
+# How to submit a CLA
 
-There should be a plenty of examples of this in [our PR section](https://github.com/jenkinsci/infra-cla/pulls?q=is%3Apr+is%3Aclosed) .
+## Preamble
 
-To encrypt your CLA, you need gpg. First, obtain the public key of the Jenkins board:
+The Jenkins project uses the EasyCLA service provided by the Linux Foundation. We no longer accept signed PDFs sent by email to the board or by a pull request to this repository.
 
-    curl https://raw.githubusercontent.com/jenkinsci/infra-cla/approved/publicKey.asc | gpg --import
+EasyCLA is self service and requires no manual intervention by the board or any other Jenkins project member. It is a one-time process, valid for all Jenkins [community spaces](https://www.jenkins.io/project/conduct/#community-spaces).
 
-The command to sign it is:
+### Preparation
 
-    gpg --encrypt --sign --armor -r "Jenkins Project CLA" < cla.pdf > cla.pdf.asc
+- Fork this repository, and check it out locally.
+- Make a change to [pr.txt](https://github.com/jenkinsci/infra-cla/blob/master/pr.txt).
+- Commit this change, and push it to your fork.
+- Create a pull request to this repository.
 
+The `linux-foundation-easycla` bot will automatically check your pull request and add a comment to it.
+It lets you know, that you haven't signed the CLA yet. Click on `Please click here to be authorized` on the bot's comment.
 
-## Corporate CLA
-If you work on Jenkins core on behalf of your employer, your company needs to have CCLA in place. Have CCLA printed, signed, scanned back to PDF, then send it to `jenkinsci-board@googlegroups.com` along with [your account on Jenkins](https://jenkins-ci.org/account).
+The email address you're about to enter in the CLA must match your configured email address in git and GitHub.
 
-# How to accept PR
-A board member accepts a submitted PR via the following step.
+#### Sign an individual CLA (ICLA)
 
-* Check that the submission is in order
-* Check that `cla.pdf.asc` can be indeed decrypted, and make sure it has valid content
-* Merge the PR
-* Create a signed tag (`git tag -s`) on the merge commit to create a proof
+- Follow the [ICLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/individual-contributor#github).
+
+Step 8 can be ignored.
+
+#### Sign a corporate CLA (CCLA)
+
+- Follow the [CCLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/corporate-contributor#github).
+
+### After signing
+
+Once you have signed the CLA successfully, the bot will automatically update its comment on your PR, to reflect the status.
+
+You receive an email from `*@lfx.linuxfoundation.org` sending you a link to download a copy of the CLA you have signed.
+
+You are all set now. The CLA has been signed. You can close your pull request. It acted as a workspace for the EasyCLA bot to do its job.
+
+---
+
+### Update a previously signed CLA
+
+If you have signed a CLA before and submitted a PDF, you can update it by following the same steps as above.
+
+If you have signed a PDF before and want to carry over your signature to the EasyCLA service, you can do so by following the steps above.
+
+### How to check if a CLA has been submitted
+
+Previously, project maintainers checked the `collected/` directory.
+With EasyCLA, you can look for a pull request and check the bot's comment to obtain the status of the CLA.
