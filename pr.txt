@@ -1,3 +1,5 @@
 This is a dummy file used to make modifications to, when signing the CLA.
 
 hi! I'm a dummy file!
+
+This is to submit a CLA for the project.
